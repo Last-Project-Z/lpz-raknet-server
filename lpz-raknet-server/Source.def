@@ -1,0 +1,7 @@
+LIBRARY	"lpz-raknet-server"
+EXPORTS
+	Supports
+	Load
+	Unload
+	AmxLoad
+	AmxUnload

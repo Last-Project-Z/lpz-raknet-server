@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="Source.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\precompiler.cpp" />
+    <ClCompile Include="src\native.cpp" />
+    <ClCompile Include="src\SDK\amxplugin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\precompiler.h" />
+    <ClInclude Include="src\native.h" />
+    <ClInclude Include="src\SDK\amx\amx.h" />
+    <ClInclude Include="src\SDK\amx\getch.h" />
+    <ClInclude Include="src\SDK\amx\sclinux.h" />
+    <ClInclude Include="src\SDK\plugin.h" />
+    <ClInclude Include="src\SDK\plugincommon.h" />
+  </ItemGroup>
+</Project>
